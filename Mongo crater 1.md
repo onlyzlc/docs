@@ -1,4 +1,4 @@
-# Reboot 后Mongo服务启动失败
+# 系统重启后Mongo服务启动失败
 
 ## 环境
 - 硬件：树莓派4B（RaspberryPi 4B）
@@ -6,13 +6,13 @@
 - Mongod：db version v4.2.3
 
 ## 问题
-照官方手册安装好后，启动并检查状态，没有问题。
+照官方手册安装好Mongo后，启动并检查状态，没有问题。
 
-重启系统后，调试项目时发现 Mongo 无法连接。检查Mongo 服务状态：
+重启系统后，调试项目时发现 Mongo 无法连接。检查Mongod 服务状态：
 
 ` sudo systemctl status mongod `
 
-显示未启动。
+显示未启动：
 
 > Active: Failed...
 
