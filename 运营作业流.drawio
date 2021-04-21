@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T14:25:46.652Z" agent="5.0 (X11)" etag="PN3GwSSDKtal6bklNXfJ" version="14.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-21T14:46:37.174Z" agent="5.0 (X11)" etag="9EMSpb_l_rbQf0KpRShX" version="14.6.3" type="github" pages="2">
   <diagram name="ISSUE 处理流程" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1671" dy="-326" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1671" dy="-326" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           <mxGeometry x="529" y="37.5" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="ytb63_vas8KU5jVieyob-8" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=end;symbol=terminate;rounded=1;" vertex="1" parent="vUwZyT3lxK7mWfGsbB_e-64">
-          <mxGeometry x="731" y="37.5" width="50" height="50" as="geometry" />
+          <mxGeometry x="738" y="37.5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vUwZyT3lxK7mWfGsbB_e-55" value="&lt;div&gt;非问题的理由&lt;br&gt;&lt;/div&gt;" style="startArrow=oval;startFill=0;startSize=8;endArrow=block;endFill=0;endSize=8;dashed=1;html=1;fontFamily=Helvetica;fontSize=11;align=center;edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontColor=#ED4815;" edge="1" parent="vUwZyT3lxK7mWfGsbB_e-20" source="vUwZyT3lxK7mWfGsbB_e-49" target="vUwZyT3lxK7mWfGsbB_e-52">
           <mxGeometry x="0.1758" relative="1" as="geometry">
@@ -243,8 +243,8 @@
             <mxPoint x="682.5" y="1689.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ytb63_vas8KU5jVieyob-5" value="&lt;div&gt;根据类似 ISSUE 的现状进行答复&lt;/div&gt;" style="html=1;whiteSpace=wrap;dropTarget=0;rounded=1;fontColor=#ED4815;" vertex="1" parent="vUwZyT3lxK7mWfGsbB_e-21">
-          <mxGeometry x="696" y="107.5" width="120" height="80" as="geometry" />
+        <mxCell id="ytb63_vas8KU5jVieyob-5" value="&lt;div&gt;根据类似 ISSUE 的现状进行答复;&lt;/div&gt;&lt;div&gt;告知规避方法（若有）&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;dropTarget=0;rounded=1;fontColor=#ED4815;" vertex="1" parent="vUwZyT3lxK7mWfGsbB_e-21">
+          <mxGeometry x="696" y="107.5" width="134" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ytb63_vas8KU5jVieyob-6" value="" style="html=1;shape=mxgraph.bpmn.user_task;outlineConnect=0;rounded=1;" vertex="1" parent="ytb63_vas8KU5jVieyob-5">
           <mxGeometry width="14" height="14" relative="1" as="geometry">
@@ -264,6 +264,9 @@
         </mxCell>
         <mxCell id="ytb63_vas8KU5jVieyob-17" value="" style="shape=message;whiteSpace=wrap;html=1;outlineConnect=0;strokeWidth=2;rounded=1;" vertex="1" parent="vUwZyT3lxK7mWfGsbB_e-21">
           <mxGeometry x="1016" y="24" width="21.33" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="ytb63_vas8KU5jVieyob-26" value="" style="shape=message;whiteSpace=wrap;html=1;outlineConnect=0;strokeWidth=2;rounded=1;" vertex="1" parent="vUwZyT3lxK7mWfGsbB_e-21">
+          <mxGeometry x="736" y="15" width="21.33" height="16" as="geometry" />
         </mxCell>
         <mxCell id="vUwZyT3lxK7mWfGsbB_e-22" value="需求规划人员" style="swimlane;html=1;startSize=30;horizontal=0;fontSize=14;fontStyle=1;rounded=1;" vertex="1" parent="vUwZyT3lxK7mWfGsbB_e-20">
           <mxGeometry y="520" width="1568" height="120" as="geometry" />
